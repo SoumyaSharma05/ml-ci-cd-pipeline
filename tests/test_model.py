@@ -1,6 +1,6 @@
 import unittest
 import joblib
-from sklear.ensemble import RandommForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 
 class TestModelTraining(unittest.TestCase):
 	def test_model_training(self):
